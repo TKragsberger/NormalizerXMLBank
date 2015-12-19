@@ -26,7 +26,7 @@ public class NormalizerXMLBank {
     
     public static String normalizeXML(String message){
         String[] token = message.split("[<>]");
-        String result = token[8]+">>>"+token[4];
+        String result = token[8]+">>>"+token[4]+">>>bankXML";
         return result;
     }
     
